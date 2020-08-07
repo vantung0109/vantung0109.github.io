@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #EAE6E6;
+}
+h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 45px;
+}
+#outer{
+	width: 1000px;
+	height: 2450px;
+	background: grey;
+	margin: 0 auto;
+}
+#header{
+	width: 1000px;
+	height: 490px;
+	background-image: url("../img/grounded.jpg");
+	padding-top: 10px;
+}
+.logo{
+	float: left;
+}
+.menu{
+	width: 600px;
+	height: 50px;
+	float: right;
+	margin-right: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	border: 2px solid transparent;
+	color: white;
+	transition-duration: 0.9s;
+}
+.menu ul li a:hover{
+	border-radius: 15px;
+	border-color: white;
+	color: white;
+}
+.text{
+	width: 1000px;
+	height: 220px;
+	float: left;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+}
+.text p{
+	margin-top: 35px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+/*HEADER*/
+#content{
+	width: 1000px;
+	height: 1670px;
+	background: black;
+	text-align: center;
+	padding-top: 30px;
+}
+h1{
+	color: white;
+}
+.line{
+	width: 100px;
+	height: 10px;
+	background: green;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+h2{
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	margin-top: 50px;
+}
+.line-white{
+	width: 200px;
+	height: 5px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.img-box1{
+	width: 1000px;
+	height: 200px;
+	padding-top: 50px;
+	float: left;
+}
+.img-box2{
+	width: 1000px;
+	height: 200px;
+	float: left;
+}
+.img-box3{
+	width: 1000px;
+	height: 200px;
+	float: left;
+}
+.img-box4{
+	width: 1000px;
+	height: 200px;
+	float: left;
+}
+.about{
+	width: 1000px;
+	height: 240px;
+	margin-top: 50px;
+}
+.about .box{
+	width: 237.5px;
+	height: 237.5px;
+	border: 2px solid green;
+	float: left;
+	margin-left: 7px;
+	text-align: center;
+}
+.about .box h3{
+	color: green;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	margin-top: 20px;
+}
+.about .box p{
+	margin-top: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	font-size: 15px;
+}
+.req{
+	width: 1000px;
+	height: 260px;
+	margin: 0 auto;
+}
+.text-req1{
+	width: 500px;
+	height: 160px;
+	margin-top: 50px;
+	margin-left: 80px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+.text-req2{
+	width: 400px;
+	height: 160px;
+	margin-top: 50px;
+	float: right;
+	color: white;
+	text-align: left;
+}
+/*CONTENT*/
+#footer{
+	width: 1000px;
+	height: 230px;
+	background: black;
+	padding-top: 20px;
+}
+.line-footer{
+	width: 1000px;
+	height: 1px;
+	background: grey;
+}
+.box-x{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 80px;
+}
+b{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: white;
+}
+.box-x ul{
+	list-style: none;
+}
+.box-x ul li{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+}
+.box-x ul li a{
+	text-decoration: none;
+	color: white;
+}
+.box-x ul li a:hover{
+	text-decoration: underline;
+	color: white;
+}
+.menu-end{
+	width: 550px;
+	height: 30px;
+	float: right;
+	margin-top: 50px;
+}
+.menu-end ul{
+	list-style: none;
+	text-align: center;
+}
+.menu-end ul li{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+.menu-end ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+.menu-end ul li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+/*FOOTER*/
